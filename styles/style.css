@@ -1,0 +1,116 @@
+/* Google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/* 
+                                        Card section.
+=========================================================================================
+*/
+
+#card_section {
+    width: 100%;
+    height: 640px;
+    background-color: #FAFAF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_spacing {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 1em;
+    box-shadow: 15px 15px 10px rgba(17, 23, 41, 0.05);
+}
+
+
+.card_spacing hr {
+    border: 1px solid #E5EAF0;
+}
+
+
+
+/* Card header. */
+.card_header {
+    padding: 1em;
+}
+
+.card_header img {
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+
+.card_header button {
+    text-decoration: none;
+    color: #883AE1;
+    background-color: #E6D6FC;
+    padding: .4em 1em;
+    border-radius: 1em;
+    border: none;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+
+
+
+/* Card main. */
+.card_main {
+    padding: 1em 1em 1.25em;
+}
+
+.card_main h3 {
+    margin-bottom: .375em;
+    font-size: 1.125rem;
+    color: #20293A;
+}
+
+.card_main p {
+    color: #6C727F;
+    font-size: 0.875rem;
+}
+
+
+
+/* Card footer */
+.card_footer {
+    padding: 1.25em 1em;
+    color: #6C727F;
+}
+
+.card_footer span {
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
+/* 
+                                        Responsive CSS.
+=========================================================================================
+*/
+
+@media screen and (max-width: 640px) {
+
+    .card_spacing {
+        width: 60%;
+    }
+    
+}
